@@ -30,8 +30,6 @@ unsigned char chu[7][5]={{0x5E,0x78,0x5F,0x30,0x38}, //dtail
 
 unsigned char Recive;     //UART
 
-
-
 long OFFSET=0;
 int SCALE=718.0;
 unsigned char blink=0;
