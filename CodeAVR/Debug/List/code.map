@@ -1,0 +1,47 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+so                                                                                0x0260      10
+led                                                                               0x026A      15
+chu                                                                               0x0279      35
+OFFSET                                                                            0x029C       4
+T_gas                                                                             0x02A0       4
+dk_sent                                                                           0x02A4       1
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+Recive                                                                            R5           1
+SCALE                                                                             R6,R7        2
+blink                                                                             R4           1
+T_can                                                                             R8,R9        2
+SETUP_W                                                                           R10,R11      2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+usart_rx_isr                                                                      0x00082      3
+timer1_ovf_isr                                                                    0x00085     50
+main                                                                              0x000B7     49
+GPIO_Init                                                                         0x000E8     16
+UART_Init                                                                         0x000F8     11
+TIM1_Init                                                                         0x00103     16
+hienso                                                                            0x00113    108
+hienso_int                                                                        0x0017F     61
+hienso_start                                                                      0x001BC     36
+hien_chu                                                                          0x001E0     36
+quetphim                                                                          0x00204     80
+TX                                                                                0x00254      6
+HX_read                                                                           0x0025A     37
+read_average                                                                      0x0027F     24
+get_value                                                                         0x00297     30
+get_units                                                                         0x002B5      9
+tare                                                                              0x002BE     19
+start                                                                             0x002D1     19
+Details                                                                           0x002E4     55
+Smart_conf                                                                        0x0031B      1
+Set_scale                                                                         0x0031C     67
